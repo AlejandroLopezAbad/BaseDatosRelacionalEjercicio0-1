@@ -4,9 +4,9 @@ import java.time.LocalDate
 import java.util.*
 
 class Empleados(
-    val id: UUID,
+    val uuid: UUID,
     val nombreEmpleado:String,
-    val fechaContratacion: LocalDate,
+    val fechaAlta: LocalDate,
     val departamento:Departamento
     ) {
 }

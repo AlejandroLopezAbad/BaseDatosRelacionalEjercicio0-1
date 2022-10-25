@@ -69,6 +69,7 @@ class DepartamentoRepositoryImpl : DepartamentoRepository {
                 // Salvamos
                 return insert(entity)
             }
+            //era UN DOMINGO EN LA TARDE Y FUI A LOS COSHE DE CHOQUE alexito ESTA FUMANDO NO SE ENTERA LES GOOOOOOOOOOOOOOOOOO SIUUUUUUUU SE LO DEJAMOS AQUI QUE SE LO ENTREGE AL PROFE CHIIIIIIIIIIIIIIIII
         }
 
         private fun insert(departamento: Departamento): Departamento {

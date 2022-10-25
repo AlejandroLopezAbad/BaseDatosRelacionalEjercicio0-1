@@ -7,6 +7,7 @@ import java.io.*
 import java.nio.file.Files
 import java.nio.file.Paths
 import java.sql.*
+import org.apache.ibatis.jdbc.ScriptRunner
 
 
 object DataBaseManager {
@@ -251,7 +252,7 @@ object DataBaseManager {
         connection?.rollback()
         connection?.autoCommit = true
     }
-/*
+
     /**
      * Ejecuta un script que se pasa como
      *
@@ -266,5 +267,5 @@ object DataBaseManager {
         val reader: Reader = BufferedReader(FileReader(sqlFile))
         sr.setLogWriter(if (logWriter) PrintWriter(System.out) else null)
         sr.runScript(reader)
-    }*/
+    }
 }
