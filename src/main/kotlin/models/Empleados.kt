@@ -7,6 +7,6 @@ class Empleados(
     val uuid: UUID,
     val nombreEmpleado:String,
     val fechaAlta: LocalDate,
-    val departamento:Departamento
+    val departamento:Departamento?
     ) {
 }
